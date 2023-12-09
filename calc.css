@@ -1,0 +1,35 @@
+body{
+    background:grey
+
+}
+#calc-contain{
+    position: relative;
+    left:400px;
+    width:400px;
+    border:2px solid black;
+    border-radius: 50px 20px;
+    padding:20px 20px 50px 20px;
+    background-color: rgb(38, 55, 68);
+
+}
+input[type=button]{
+    background-color: lightgrey;
+    width:20%;
+    font-size: 20px;
+    font-weight: 900px;
+    border-radius: 70px;
+    margin-left:13px;
+    margin-top:10px;
+}
+input[type=button]:hover{
+    background-color: #b3beb3;
+    color: white;
+}
+input[type=text]{
+    display:block;
+    width:90%;
+    font-size: 20px;
+    margin:12px auto;
+    padding:10px;
+    box-shadow:4px -2px 10px black inset;
+}
